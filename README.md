@@ -1,29 +1,22 @@
-# Sentinel Infrastructure Solutions Website v5 — Master Logo Fix
+# Sentinel Infrastructure Solutions Website v6 — Crisp Branding
 
-This release corrects the logo problems reported in the Cloudflare Pages preview.
+This version solves the blurred/washed-out logo issue by no longer using a small raster image for
+the company name.
 
 ## What changed
 
-- The hero/about shield is extracted directly from the large approved primary logo on the brand board.
-- The entire outer silver shield contour is present and is not clipped.
-- The surrounding board background is truly transparent.
-- The header and footer use the clean isolated horizontal logos.
-- Dark rectangles were removed from the header, footer, hero, and about graphics.
-- No logo is enlarged beyond its native source dimensions in the browser.
-- Glow filters were removed from the raster artwork so the edges stay crisp.
-- Every image has a new `v5` filename to bypass older Cloudflare and browser caches.
-- All older temporary and recreated logo files were removed.
+- The official shield remains an image.
+- “SENTINEL,” “INFRASTRUCTURE SOLUTIONS,” and the tagline are now rendered as live website text
+  using the approved Raleway/Open Sans brand typography.
+- Live text stays sharp at every screen size and resolution.
+- The shield is displayed below its native source size, so it is never enlarged by the browser.
+- Old cached v5 logo filenames were removed.
+- New v6 favicon filenames force a fresh browser/Cloudflare load.
 
-## Upload to GitHub
+## Upload
 
-1. Extract the ZIP.
-2. Open `SentinelInfraSolutions/website`.
-3. Select **Add file → Upload files**.
-4. Upload every file from inside this package.
-5. Allow GitHub to replace existing files.
-6. Commit with: `Install final master logo assets`
-7. Wait for the Cloudflare Pages deployment to finish.
-8. Open the newest deployment URL.
-9. Press **Ctrl + Shift + R** once.
-
-Keep using the `.pages.dev` preview until all pages have been approved.
+1. Extract this ZIP.
+2. Upload every file to the root of the GitHub `website` repository.
+3. Commit with: `Switch to crisp live-text branding`
+4. Wait for Cloudflare Pages to deploy.
+5. Open the newest deployment and press Ctrl + Shift + R once.

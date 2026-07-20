@@ -40,7 +40,20 @@ p{margin-top:0}
 
 .site-header{position:sticky;top:0;z-index:100;background:rgba(13,17,23,.90);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
 .nav-wrap{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
-.brand-image{display:block;width:276px;max-width:42vw;text-decoration:none;flex:0 0 auto}.brand-image img{display:block;width:100%;height:auto;object-fit:contain;image-rendering:auto}
+.brand-image{display:block;text-decoration:none;flex:0 0 auto}
+
+.live-brand{display:flex;align-items:center;gap:11px;line-height:1}
+.live-brand>img{width:49px;height:auto;display:block;flex:0 0 auto}
+.brand-words{display:flex;flex-direction:column;align-items:flex-start}
+.brand-words strong{font-family:"Raleway",sans-serif;font-size:1.42rem;line-height:.95;letter-spacing:.08em;color:#F8FAFC;font-weight:800}
+.brand-subline{margin-top:7px;font-family:"Raleway",sans-serif;font-size:.61rem;line-height:1;letter-spacing:.145em;color:#0EA5E9;font-weight:700;white-space:nowrap}
+.brand-tagline{margin-top:9px;font-family:"Open Sans",sans-serif;font-size:.52rem;line-height:1;letter-spacing:.18em;color:#F8FAFC;font-weight:600;white-space:nowrap}
+.footer-live-brand{margin-bottom:16px}
+.footer-live-brand>img{width:54px}
+.footer-live-brand .brand-words strong{font-size:1.26rem}
+.footer-live-brand .brand-subline{font-size:.54rem}
+.footer-live-brand .brand-tagline{font-size:.47rem}
+
 .primary-nav{display:flex;align-items:center;gap:28px}
 .primary-nav a{text-decoration:none;color:#DCE5EF;font-weight:600;font-size:.92rem}
 .primary-nav a:hover,.primary-nav a.active{color:var(--bright)}
@@ -59,7 +72,7 @@ p{margin-top:0}
 .trust-row{display:flex;flex-wrap:wrap;gap:22px;margin-top:36px;color:#B4C0CE;font-size:.88rem}
 .trust-row span::before{content:"✓";color:var(--bright);margin-right:8px;font-weight:700}
 .hero-visual{position:relative;display:grid;place-items:center;min-height:420px}
-.hero-visual>img{width:180px;height:auto;filter:none;position:relative;z-index:2;image-rendering:auto}
+.hero-visual>img{width:150px;height:auto;filter:none;position:relative;z-index:2;image-rendering:auto}
 .shield-glow{position:absolute;width:370px;height:370px;border:1px solid rgba(14,165,233,.2);border-radius:50%;box-shadow:0 0 90px rgba(14,165,233,.09),inset 0 0 70px rgba(14,165,233,.06)}
 .shield-glow::before,.shield-glow::after{content:"";position:absolute;inset:38px;border:1px dashed rgba(14,165,233,.18);border-radius:50%}
 .shield-glow::after{inset:82px}
@@ -108,7 +121,7 @@ p{margin-top:0}
 .about-preview,.story-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:80px;align-items:center}
 .about-mark{min-height:360px;display:grid;place-items:center;border:1px solid var(--line);border-radius:var(--radius);background:radial-gradient(circle,rgba(14,165,233,.12),transparent 56%),#101720}
 .about-mark.tall{min-height:480px}
-.about-mark img{width:175px;height:auto;filter:none;image-rendering:auto}
+.about-mark img{width:145px;height:auto;filter:none;image-rendering:auto}
 .about-preview p:not(.eyebrow),.story-grid p:not(.eyebrow){color:var(--muted);font-size:1.03rem}
 
 .faq-list{max-width:900px;margin-inline:auto;border-top:1px solid var(--line)}
@@ -170,7 +183,7 @@ p{margin-top:0}
 
 .site-footer{margin-top:100px;border-top:1px solid var(--line);background:#090D12;padding:55px 0 24px}
 .footer-main{display:grid;grid-template-columns:1.6fr .7fr 1.2fr .6fr;gap:45px}
-.footer-logo{width:277px;max-width:100%;height:auto;margin-bottom:15px;image-rendering:auto}
+
 .footer-main p,.footer-main span{color:var(--muted);font-size:.9rem}
 .footer-main h3{font-size:.9rem;letter-spacing:.08em;color:#DCE5EF}
 .footer-main>div{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
@@ -205,4 +218,12 @@ p{margin-top:0}
   .about-mark{min-height:300px}.about-mark.tall{min-height:360px}
   .contact-card{padding:32px 24px}.field-row{grid-template-columns:1fr;gap:0}
   .footer-main{grid-template-columns:1fr}.footer-bottom{flex-direction:column}
+}
+
+
+@media(max-width:620px){
+  .live-brand>img{width:42px}
+  .brand-words strong{font-size:1.08rem}
+  .brand-subline{font-size:.47rem;letter-spacing:.11em}
+  .brand-tagline{display:none}
 }
