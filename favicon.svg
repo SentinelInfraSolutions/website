@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" role="img" aria-labelledby="title desc">
+<title id="title">Sentinel Infrastructure Solutions shield</title>
+<desc id="desc">A blue and silver shield containing a city skyline and circuit traces.</desc>
+<defs>
+  <linearGradient id="edge" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#f8fafc"/>
+    <stop offset=".46" stop-color="#8ea2b5"/>
+    <stop offset=".5" stop-color="#0ea5e9"/>
+    <stop offset="1" stop-color="#1e40af"/>
+  </linearGradient>
+  <linearGradient id="fill" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#1a1f26"/>
+    <stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+</defs>
+<path d="M120 8 222 46v81c0 68-41 119-102 145C59 246 18 195 18 127V46L120 8Z" fill="url(#fill)" stroke="url(#edge)" stroke-width="11"/>
+<path d="M120 25 204 56v70c0 57-33 101-84 125-51-24-84-68-84-125V56l84-31Z" fill="none" stroke="#26374a" stroke-width="2"/>
+<g fill="#dce5ef">
+  <path d="M58 134V85h25v49z"/>
+  <path d="M88 134V62h32v72z"/>
+  <path d="M125 134V76h27v58z"/>
+  <path d="M157 134V96h24v38z"/>
+</g>
+<g fill="#8093a7">
+  <path d="M64 91h5v7h-5zm0 14h5v7h-5zm0 14h5v7h-5zM96 70h6v8h-6zm12 0h6v8h-6zM96 85h6v8h-6zm12 0h6v8h-6zM133 84h5v7h-5zm9 0h5v7h-5zm-9 14h5v7h-5zm9 0h5v7h-5zM164 103h5v7h-5zm0 14h5v7h-5z"/>
+</g>
+<g fill="none" stroke="#0ea5e9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M55 153h28l15 15v45"/>
+  <path d="M185 153h-29l-15 15v45"/>
+  <path d="M76 184h24l20 20v31"/>
+  <path d="M164 184h-24l-20 20"/>
+  <path d="M120 145v41"/>
+</g>
+<g fill="#0ea5e9">
+  <circle cx="55" cy="153" r="7"/><circle cx="185" cy="153" r="7"/>
+  <circle cx="76" cy="184" r="7"/><circle cx="164" cy="184" r="7"/>
+  <circle cx="98" cy="213" r="7"/><circle cx="141" cy="213" r="7"/>
+  <circle cx="120" cy="145" r="7"/><circle cx="120" cy="235" r="7"/>
+</g>
+</svg>
