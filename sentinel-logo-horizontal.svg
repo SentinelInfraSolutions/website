@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 220" role="img" aria-labelledby="title desc">
+<title id="title">Sentinel Infrastructure Solutions</title>
+<desc id="desc">Shield, company name, and Secure Monitor Support tagline.</desc>
+<defs>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F8FAFC"/><stop offset=".38" stop-color="#96A8BA"/>
+    <stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#1E40AF"/>
+  </linearGradient>
+  <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1A1F26"/><stop offset="1" stop-color="#0D1117"/>
+  </linearGradient>
+</defs>
+<g transform="translate(14 8) scale(.69)">
+  <path d="M120 8 222 46v81c0 68-41 119-102 145C59 246 18 195 18 127V46L120 8Z" fill="url(#shield)" stroke="url(#rim)" stroke-width="11"/>
+  <path d="M120 26 202 57v68c0 55-32 98-82 122-50-24-82-67-82-122V57l82-31Z" fill="none" stroke="#30445A" stroke-width="2"/>
+  <g fill="#E4ECF4">
+    <path d="M54 139V91h26v48Z"/><path d="M85 139V62h34v77Z"/><path d="M124 139V78h29v61Z"/><path d="M158 139V98h25v41Z"/>
+  </g>
+  <g fill="none" stroke="#0EA5E9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53 157h29l16 16v42"/><path d="M187 157h-29l-16 16v42"/>
+    <path d="M75 187h24l21 21v29"/><path d="M165 187h-24l-21 21"/><path d="M120 146v42"/>
+  </g>
+  <g fill="#0EA5E9">
+    <circle cx="53" cy="157" r="7"/><circle cx="187" cy="157" r="7"/><circle cx="75" cy="187" r="7"/>
+    <circle cx="165" cy="187" r="7"/><circle cx="98" cy="215" r="7"/><circle cx="142" cy="215" r="7"/>
+    <circle cx="120" cy="146" r="7"/><circle cx="120" cy="237" r="7"/>
+  </g>
+</g>
+<text x="205" y="89" fill="#F8FAFC" font-family="Raleway, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="5">SENTINEL</text>
+<text x="210" y="132" fill="#0EA5E9" font-family="Raleway, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">INFRASTRUCTURE SOLUTIONS</text>
+<line x1="210" y1="151" x2="730" y2="151" stroke="#1E40AF" stroke-width="2"/>
+<text x="210" y="184" fill="#D7E1EC" font-family="Open Sans, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6">SECURE. MONITOR. SUPPORT.</text>
+</svg>
