@@ -71,15 +71,39 @@ p{margin-top:0}
 .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
 .trust-row{display:flex;flex-wrap:wrap;gap:22px;margin-top:36px;color:#B4C0CE;font-size:.88rem}
 .trust-row span::before{content:"✓";color:var(--bright);margin-right:8px;font-weight:700}
-.hero-visual{position:relative;display:grid;place-items:center;min-height:420px}
-.hero-visual>img{width:158px;height:auto;filter:none;position:relative;z-index:2;image-rendering:auto}
-.shield-glow{position:absolute;width:370px;height:370px;border:1px solid rgba(14,165,233,.2);border-radius:50%;box-shadow:0 0 90px rgba(14,165,233,.09),inset 0 0 70px rgba(14,165,233,.06)}
-.shield-glow::before,.shield-glow::after{content:"";position:absolute;inset:38px;border:1px dashed rgba(14,165,233,.18);border-radius:50%}
-.shield-glow::after{inset:82px}
-.status-card{position:absolute;z-index:3;min-width:190px;display:flex;align-items:center;gap:12px;padding:13px 16px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(18,25,35,.84);backdrop-filter:blur(10px);box-shadow:0 16px 40px rgba(0,0,0,.25)}
-.status-one{left:-5px;top:75px}.status-two{right:-20px;bottom:70px}
-.status-dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}
-.status-card small{display:block;color:var(--muted);font-size:.62rem;letter-spacing:.14em}.status-card strong{display:block;margin-top:2px}
+.hero-visual{position:relative;display:grid;place-items:center;min-height:470px}
+.hero-illustration{isolation:isolate}
+.hero-illustration-glow{
+  position:absolute;
+  z-index:-1;
+  width:82%;
+  aspect-ratio:1;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(14,165,233,.25) 0,rgba(30,64,175,.12) 42%,transparent 72%);
+  filter:blur(24px);
+  animation:sentinelGlow 5.5s ease-in-out infinite;
+}
+.hero-illustration>img{
+  width:min(100%,650px);
+  height:auto;
+  display:block;
+  border-radius:28px;
+  border:1px solid rgba(14,165,233,.18);
+  box-shadow:0 30px 85px rgba(0,0,0,.42),0 0 60px rgba(14,165,233,.12);
+  animation:sentinelFloat 7s ease-in-out infinite;
+  transform-origin:center;
+}
+@keyframes sentinelFloat{
+  0%,100%{transform:translateY(0) scale(1)}
+  50%{transform:translateY(-10px) scale(1.008)}
+}
+@keyframes sentinelGlow{
+  0%,100%{opacity:.68;transform:scale(.96)}
+  50%{opacity:1;transform:scale(1.04)}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-illustration>img,.hero-illustration-glow{animation:none}
+}
 
 .statement{background:linear-gradient(90deg,#111823,#172333,#111823);border-bottom:1px solid var(--line)}
 .statement-grid{min-height:112px;display:grid;grid-template-columns:repeat(3,1fr);align-items:center;text-align:center}
