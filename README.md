@@ -1,20 +1,23 @@
-# Sentinel Infrastructure Solutions Website v9 — Larger Hero
+# Sentinel Infrastructure Solutions Website v10 — Integrated Hero
 
-This version keeps the custom hero illustration but makes it much more prominent.
+This version integrates the new custom cybersecurity artwork into the homepage hero.
 
 ## Changes
 
-- Cropped unnecessary empty space around the artwork.
-- Increased the hero illustration size significantly.
-- Reduced the gap between the headline and illustration.
-- Shifted the illustration slightly right for a more premium, full-width composition.
-- Enlarged the glow so the graphic feels integrated into the page rather than sitting in a small card.
-- Added a new v9 image filename to bypass cache.
+- Replaced the prior rounded-card artwork with the newly generated Sentinel hero illustration.
+- Increased the artwork to fill the right side of the hero.
+- Removed all card borders, rounded corners, and image shadows.
+- Added soft edge masking so the artwork fades into the website background.
+- Added a subtle left-side overlay so the graphic does not compete with the headline.
+- Retained restrained floating/glow motion with reduced-motion support.
+- Optimized the illustration as a high-quality WebP file.
 
 ## Upload
 
 1. Extract this ZIP.
-2. Upload all files to the root of the GitHub `website` repository.
-3. Commit with: `Enlarge custom hero illustration`
-4. Wait for Cloudflare Pages to deploy.
-5. Open the newest `.pages.dev` preview and press Ctrl + Shift + R once.
+2. Open the GitHub `website` repository.
+3. Choose **Add file → Upload files**.
+4. Upload every file from the extracted folder.
+5. Commit with: `Integrate seamless custom hero artwork`
+6. Wait for Cloudflare Pages to deploy.
+7. Open the newest `.pages.dev` deployment and press **Ctrl + Shift + R** once.
