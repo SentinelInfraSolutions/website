@@ -1,16 +1,17 @@
-# Sentinel Infrastructure Solutions Website v10 — Integrated Hero
+# Sentinel Infrastructure Solutions Website v11 — Balanced Hero Layout
 
-This version integrates the new custom cybersecurity artwork into the homepage hero.
+This release integrates the spacing fix directly into the website.
 
-## Changes
+## What changed
 
-- Replaced the prior rounded-card artwork with the newly generated Sentinel hero illustration.
-- Increased the artwork to fill the right side of the hero.
-- Removed all card borders, rounded corners, and image shadows.
-- Added soft edge masking so the artwork fades into the website background.
-- Added a subtle left-side overlay so the graphic does not compete with the headline.
-- Retained restrained floating/glow motion with reduced-motion support.
-- Optimized the illustration as a high-quality WebP file.
+- Rebalanced the hero columns so the artwork cannot cover the headline.
+- Removed the negative right margin and oversized image width.
+- Added a 54px separation between the text and artwork.
+- Kept the headline above all decorative layers.
+- Reduced the artwork to a maximum of 690px while preserving its visual impact.
+- Softened the image fade and glow.
+- Added a mid-size desktop breakpoint for narrower browser windows.
+- Renamed the stylesheet to `styles-v11.css` so Cloudflare and the browser load the new layout immediately.
 
 ## Upload
 
@@ -18,6 +19,6 @@ This version integrates the new custom cybersecurity artwork into the homepage h
 2. Open the GitHub `website` repository.
 3. Choose **Add file → Upload files**.
 4. Upload every file from the extracted folder.
-5. Commit with: `Integrate seamless custom hero artwork`
+5. Commit with: `Balance hero spacing and artwork`
 6. Wait for Cloudflare Pages to deploy.
 7. Open the newest `.pages.dev` deployment and press **Ctrl + Shift + R** once.
